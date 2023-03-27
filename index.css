@@ -119,11 +119,27 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
-.thank-you img {
+.thank-you .back-arrow {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 30px;
+  background-color: hsl(213, 20%, 25%);
+  padding: .5rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.thank-you .back-arrow:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.thank-you-illustration {
   display: block;
-  margin: 0 auto 2rem;
+  margin: 2rem auto 2rem;
 }
 
 .thank-you p.state {
@@ -143,7 +159,6 @@ li {
 
 .thank-you p {
   color: hsl(217, 12%, 63%);
-  margin-bottom: 2rem;
 }
 
 .hidden {

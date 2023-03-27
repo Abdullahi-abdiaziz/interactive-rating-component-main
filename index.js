@@ -2,7 +2,7 @@ const mainContainer = document.querySelector('.main-container');
 const thanksContainer = document.querySelector('.thank-you');
 
 const submitBtn = document.getElementById('submit');
-const rateAgain = document.getElementById('rate-again');
+const rateAgain = document.querySelector('.back-arrow');
 
 const rating = document.getElementById('rating');
 const rates = document.querySelectorAll('.btn');
